@@ -1,0 +1,2406 @@
+!SESSION 2019-01-29 03:33:12.931 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 03:34:58.840
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 03:45:21.662
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 03:45:21.783
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:06:40.225
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:06:40.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-29 04:06:49.471
+!MESSAGE Could not download sources for net.md-5:bungeecord-chat:1.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact net.md-5:bungeecord-chat:jar:sources:1.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing net.md-5:bungeecord-chat:jar:sources:1.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-29 04:06:49.473
+!MESSAGE Could not resolve artifact net.md-5:bungeecord-chat:jar:sources:1.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-29 04:06:49.473
+!MESSAGE Missing net.md-5:bungeecord-chat:jar:sources:1.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:06:49.859
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:06:49.901
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-29 04:06:51.019
+!MESSAGE Could not download javadoc for net.md-5:bungeecord-chat:1.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact net.md-5:bungeecord-chat:jar:javadoc:1.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing net.md-5:bungeecord-chat:jar:javadoc:1.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-29 04:06:51.019
+!MESSAGE Could not resolve artifact net.md-5:bungeecord-chat:jar:javadoc:1.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-29 04:06:51.019
+!MESSAGE Missing net.md-5:bungeecord-chat:jar:javadoc:1.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:10:02.728
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:10:02.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:11:09.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:11:09.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:13:22.550
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:13:22.600
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:13:23.714
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:13:23.785
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:16:33.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:16:33.387
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:16:42.089
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:16:42.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:18:39.527
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:18:39.689
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:20:17.757
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:20:17.879
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:20:31.955
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:20:31.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:20.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:20.123
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:23.923
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:23.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:45.507
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:22:45.585
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:23:57.174
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:23:57.243
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:24:39.666
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:24:39.721
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:24:51.218
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:24:51.358
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:27:09.372
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:27:09.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:30:39.791
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:30:39.845
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:31:39.769
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:31:39.825
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-01-29 04:40:25.370 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/thege/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 04:41:03.795
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:45:40.566
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:45:40.645
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:46:38.753
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:46:38.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:47:57.097
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:47:57.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:04.228
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:04.262
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:05.483
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:05.518
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:33.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:50:33.124
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:52:37.769
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:52:37.812
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:53:01.422
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:53:01.476
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:53:40.051
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 04:53:40.083
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:10:08.104
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:10:08.186
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:10:14.623
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:10:14.656
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:11:14.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:11:14.507
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:11:15.660
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:11:15.712
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:51:21.306
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:51:21.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 05:56:28.468
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:504)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:404)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 05:56:28.470
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 05:56:28.470
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:56:28.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:56:28.570
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 05:56:28.602
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 05:56:28.602
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'TestPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:504)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:404)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-29 05:56:28.602
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 05:56:28.602
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:59:33.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-29 05:59:34.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-29 06:04:19.218
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[]) [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$2.visit(JavadocContentAccess2.java:845)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:206)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.findAttachedDocInHierarchy(JavadocContentAccess2.java:859)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:553)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-29 06:04:19.219
+!MESSAGE Unknown javadoc format for onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[]) [in JavaPlugin [in JavaPlugin.class [in org.bukkit.plugin.java [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-29 06:04:28.288
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for timings [in Command [in Command.class [in org.bukkit.command [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-29 06:04:28.288
+!MESSAGE Unknown javadoc format for timings [in Command [in Command.class [in org.bukkit.command [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-29 06:04:42.602
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addAttachment(org.bukkit.plugin.Plugin) [in Permissible [in Permissible.class [in org.bukkit.permissions [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-29 06:04:42.602
+!MESSAGE Unknown javadoc format for addAttachment(org.bukkit.plugin.Plugin) [in Permissible [in Permissible.class [in org.bukkit.permissions [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-29 06:14:50.628
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addAttachment(org.bukkit.plugin.Plugin) [in Permissible [in Permissible.class [in org.bukkit.permissions [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-29 06:14:50.628
+!MESSAGE Unknown javadoc format for addAttachment(org.bukkit.plugin.Plugin) [in Permissible [in Permissible.class [in org.bukkit.permissions [in C:\Users\thege\Desktop\building\Spigot\Spigot-API\target\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:19:11.220
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.220
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.220
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:19:11.331
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:19:11.331
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.331
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.331
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:19:11.664
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.666
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.666
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:19:11.730
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:19:11.730
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.730
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-29 06:19:11.730
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:21:24.507
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:21:24.507
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:21:24.507
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:21:24.582
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:21:24.582
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-29 06:21:24.582
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:21:24.582
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:24:10.838
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:10.839
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:10.839
+!MESSAGE The builder launch configuration could not be found.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:24:10.870
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:24:10.870
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:10.870
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:10.870
+!MESSAGE The builder launch configuration could not be found.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:24:11.133
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:11.133
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:11.133
+!MESSAGE The builder launch configuration could not be found.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:24:11.166
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:24:11.166
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:11.166
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:11.166
+!MESSAGE The builder launch configuration could not be found.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-29 06:24:50.038
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:50.039
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:50.039
+!MESSAGE The builder launch configuration could not be found.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-29 06:24:50.077
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-29 06:24:50.077
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The builder launch configuration could not be found.
+	at org.eclipse.core.externaltools.internal.ExternalToolsCore.newError(ExternalToolsCore.java:117)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:81)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:50.077
+!MESSAGE The builder launch configuration could not be found.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-29 06:24:50.077
+!MESSAGE The builder launch configuration could not be found.
+!SESSION 2019-01-30 18:45:44.530 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-30 18:47:52.869
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 19:00:51.444
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:00:51.473
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:00:51.473
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 19:00:51.498
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 19:00:51.498
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 19:00:51.498
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:00:51.498
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 19:01:00.934
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:01:00.934
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:01:00.936
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 19:01:00.967
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 19:01:00.968
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 19:01:00.968
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 19:01:00.968
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 2 2 2019-01-30 19:42:48.796
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-01-30 19:42:48.797
+!MESSAGE The project description file (.project) for 'MyPlugin' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:07:35.029
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:07:35.030
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:07:35.030
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:07:35.081
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:07:35.081
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:07:35.082
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:07:35.082
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:07:51.031
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:07:51.031
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:07:51.031
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:07:51.109
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:07:51.109
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:07:51.109
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:07:51.109
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:09:19.314
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:09:19.315
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:09:19.315
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:09:19.418
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:09:19.418
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:09:19.419
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:09:19.419
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:09:38.344
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:09:38.345
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:09:38.345
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:09:38.420
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:09:38.420
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:09:38.420
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:09:38.420
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:11:30.781
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:30.781
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:30.782
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:11:30.872
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:11:30.872
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:30.872
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:30.872
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:11:31.229
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:31.229
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:31.230
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:11:31.266
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:11:31.266
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:31.266
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:11:31.266
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:12:24.418
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:24.419
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:24.419
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:12:24.491
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:12:24.491
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:24.491
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:24.491
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:12:36.496
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:36.498
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:36.498
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:12:36.622
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:12:36.622
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:36.622
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:36.623
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:12:43.070
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:12:43.070
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:12:43.070
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:12:43.123
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:12:43.123
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:12:43.123
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:12:43.123
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:12:55.535
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:55.536
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:55.538
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:12:55.601
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:12:55.601
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:55.601
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:12:55.601
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:13:56.187
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:13:56.187
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:13:56.187
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:13:56.290
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:13:56.290
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist for the external tool named New_Builder.
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.abort(ExternalToolsCoreUtil.java:56)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:87)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.externaltools 4 0 2019-01-30 20:13:56.290
+!MESSAGE The file does not exist for the external tool named New_Builder.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 0 2019-01-30 20:13:56.290
+!MESSAGE The file does not exist for the external tool named New_Builder.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:14:04.348
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:04.350
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:04.350
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:14:04.451
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:14:04.451
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:14:04.451
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:04.451
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:14:14.286
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:14.287
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:14.287
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:14:14.333
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:14:14.333
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:14:14.333
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:14.333
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:14:52.584
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:52.584
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:52.584
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:14:52.759
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:14:52.759
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:14:52.759
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:14:52.759
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:15:16.757
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:16.758
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:16.758
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:15:16.823
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:15:16.823
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:15:16.823
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:16.823
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:15:24.679
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:24.679
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:24.679
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:15:24.751
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:15:24.752
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'MyPlugin'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:15:24.752
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:15:24.752
+!MESSAGE Variable references empty selection: ${project_loc}
+!SESSION 2019-01-30 20:20:09.127 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\thege\eclipse-workspace -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 4 567 2019-01-30 20:20:22.048
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-01-30 20:20:22.049
+!MESSAGE Could not read metadata for 'MyPlugin'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/MyPlugin)[567]: java.lang.Exception: The project description file (.project) for 'MyPlugin' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-01-30 20:20:22.052
+!MESSAGE The project description file (.project) for 'MyPlugin' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'MyPlugin' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-30 20:21:21.384
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-01-30 20:25:53.802 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\thege\eclipse-workspace -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-30 20:26:45.862
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-01-30 20:29:16.841 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-30 20:30:09.161
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thege'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:39:54.117
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:39:54.120
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:39:54.120
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:39:54.147
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:39:54.147
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'ItemRain'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:39:54.147
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:39:54.147
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 20:40:21.136
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:40:21.136
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:40:21.136
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 20:40:21.214
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 20:40:21.214
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'ItemRain'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 20:40:21.214
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 20:40:21.214
+!MESSAGE Variable references empty selection: ${project_loc}
