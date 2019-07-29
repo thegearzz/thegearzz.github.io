@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\.metadata\.plugins\org.eclipse.jdt.core
-1007278511.index
-1394957480.index
