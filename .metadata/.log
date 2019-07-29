@@ -2511,3 +2511,1336 @@ Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Users/thege/OneDriv
 	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
 	at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:280)
 	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-30 21:11:31.697
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 21:11:31.698
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 21:11:31.698
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.core.resources 4 75 2019-01-30 21:11:31.768
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2019-01-30 21:11:31.768
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'ItemRain'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.debug.core 4 120 2019-01-30 21:11:31.769
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-30 21:11:31.769
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:40.106
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:40.107
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:41.075
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:41.076
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:46.759
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:46.760
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:53.490
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:53.491
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:54.184
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:54.187
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:57.200
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:57.200
+!MESSAGE Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:58.080
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:766)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:58.081
+!MESSAGE Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:11:58.287
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:766)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:11:58.288
+!MESSAGE Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:10.461
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:10.462
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:10.642
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:10.643
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:12.985
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:766)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:12.985
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:13.751
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:13.751
+!MESSAGE Unknown javadoc format for getWorld() {key=Lorg/bukkit/event/weather/WeatherEvent;.getWorld()Lorg/bukkit/World;} [in WeatherEvent [in WeatherEvent.class [in org.bukkit.event.weather [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:15.423
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:15.424
+!MESSAGE Unknown javadoc format for dropItem(org.bukkit.Location, org.bukkit.inventory.ItemStack) {key=Lorg/bukkit/World;.dropItem(Lorg/bukkit/Location;Lorg/bukkit/inventory/ItemStack;)Lorg/bukkit/entity/Item;} [in World [in World.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:17.959
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:17.959
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:18.690
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:18.690
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:20.873
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:20.874
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:23.324
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:23.326
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:27.467
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:27.480
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:12:37.449
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:12:37.449
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:21:50.258
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:21:50.259
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:21:59.183
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:21:59.184
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:00.782
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for DARK_OAK_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:00.782
+!MESSAGE Unknown javadoc format for DARK_OAK_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:02.114
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for DARK_OAK_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:02.115
+!MESSAGE Unknown javadoc format for DARK_OAK_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:07.064
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:07.065
+!MESSAGE Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:08.588
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for CHAINMAIL_LEGGINGS [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:08.588
+!MESSAGE Unknown javadoc format for CHAINMAIL_LEGGINGS [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:09.126
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_ACACIA_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:09.126
+!MESSAGE Unknown javadoc format for LEGACY_ACACIA_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:12.615
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_OBSERVER [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:12.615
+!MESSAGE Unknown javadoc format for LEGACY_OBSERVER [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:21.367
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:21.368
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:21.511
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:21.512
+!MESSAGE Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:22:37.585
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ANVIL [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:22:37.586
+!MESSAGE Unknown javadoc format for ANVIL [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:29:14.436
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:29:14.436
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 21:29:25.411
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ANVIL {key=Lorg/bukkit/Material;.ANVIL)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 21:29:25.411
+!MESSAGE Unknown javadoc format for ANVIL {key=Lorg/bukkit/Material;.ANVIL)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:32:56.659
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ANVIL {key=Lorg/bukkit/Material;.ANVIL)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:32:56.661
+!MESSAGE Unknown javadoc format for ANVIL {key=Lorg/bukkit/Material;.ANVIL)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:32:59.170
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:32:59.171
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:03.105
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:03.105
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:04.332
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:04.333
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:04.538
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:04.538
+!MESSAGE Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:04.814
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:04.815
+!MESSAGE Unknown javadoc format for ACACIA_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:05.606
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:05.608
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:10.569
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:10.570
+!MESSAGE Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:11.862
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:11.862
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:33.908
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:33.908
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:34.710
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:34.711
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:34.998
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:34.999
+!MESSAGE Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:35.695
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for CHAINMAIL_LEGGINGS [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:35.696
+!MESSAGE Unknown javadoc format for CHAINMAIL_LEGGINGS [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:35.875
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_ACACIA_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:35.875
+!MESSAGE Unknown javadoc format for LEGACY_ACACIA_DOOR [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:36.484
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:36.485
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:38.490
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_LADDER [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:38.491
+!MESSAGE Unknown javadoc format for LEGACY_LADDER [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:38.704
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:38.704
+!MESSAGE Unknown javadoc format for LEGACY_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:40.455
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LEGACY_LOG {key=Lorg/bukkit/Material;.LEGACY_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:40.456
+!MESSAGE Unknown javadoc format for LEGACY_LOG {key=Lorg/bukkit/Material;.LEGACY_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:56.465
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:56.466
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:57.155
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:57.159
+!MESSAGE Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:33:58.557
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:33:58.557
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:02.084
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:02.085
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:03.625
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:766)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:03.625
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:04.184
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:04.185
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:10.384
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:10.384
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:12.199
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:12.200
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:34:12.971
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:34:12.972
+!MESSAGE Unknown javadoc format for OAK_LOG {key=Lorg/bukkit/Material;.OAK_LOG)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:35:43.680
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:35:43.680
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:35:54.381
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:35:54.382
+!MESSAGE Unknown javadoc format for Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:35:54.942
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:35:54.942
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:35:55.251
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_WOOD [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:35:55.252
+!MESSAGE Unknown javadoc format for ACACIA_WOOD [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:35:56.567
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:35:56.567
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:36:09.258
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_WOOD {key=Lorg/bukkit/Material;.OAK_WOOD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:761)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:36:09.258
+!MESSAGE Unknown javadoc format for OAK_WOOD {key=Lorg/bukkit/Material;.OAK_WOOD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:36:11.326
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for OAK_WOOD {key=Lorg/bukkit/Material;.OAK_WOOD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.getJavadocHtml(JavadocView.java:1109)
+	at org.eclipse.jdt.internal.ui.infoviews.JavadocView.computeInput(JavadocView.java:894)
+	at org.eclipse.jdt.internal.ui.infoviews.AbstractInfoView$2.run(AbstractInfoView.java:766)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:36:11.326
+!MESSAGE Unknown javadoc format for OAK_WOOD {key=Lorg/bukkit/Material;.OAK_WOOD)Lorg/bukkit/Material;} [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:41:34.840
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Location {key=Lorg/bukkit/Location;} [in Location.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:41:34.840
+!MESSAGE Unknown javadoc format for Location {key=Lorg/bukkit/Location;} [in Location.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:43:26.209
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:43:26.210
+!MESSAGE Unknown javadoc format for ACACIA_BOAT [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:43:28.315
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:43:28.315
+!MESSAGE Unknown javadoc format for ACACIA_LEAVES [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:43:28.565
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ACACIA_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:148)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:137)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:43:28.566
+!MESSAGE Unknown javadoc format for ACACIA_LOG [in Material [in Material.class [in org.bukkit [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:43:50.493
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:43:50.494
+!MESSAGE Unknown javadoc format for ItemStack(org.bukkit.Material) {key=Lorg/bukkit/inventory/ItemStack;.(Lorg/bukkit/Material;)V} [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:06.141
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:06.142
+!MESSAGE Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:10.745
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:84)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:981)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:10.746
+!MESSAGE Unknown javadoc format for ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:26.150
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEnchantment(org.bukkit.enchantments.Enchantment, int) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:26.150
+!MESSAGE Unknown javadoc format for addEnchantment(org.bukkit.enchantments.Enchantment, int) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:26.836
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEnchantments(java.util.Map<org.bukkit.enchantments.Enchantment,java.lang.Integer>) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:26.836
+!MESSAGE Unknown javadoc format for addEnchantments(java.util.Map<org.bukkit.enchantments.Enchantment,java.lang.Integer>) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:26.955
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for containsEnchantment(org.bukkit.enchantments.Enchantment) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:26.956
+!MESSAGE Unknown javadoc format for containsEnchantment(org.bukkit.enchantments.Enchantment) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:27.210
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setAmount(int) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:27.211
+!MESSAGE Unknown javadoc format for setAmount(int) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:29.071
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setData(org.bukkit.material.MaterialData) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:29.072
+!MESSAGE Unknown javadoc format for setData(org.bukkit.material.MaterialData) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-30 22:44:31.864
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setDurability(short) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:176)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:751)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:541)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:606)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-01-30 22:44:31.864
+!MESSAGE Unknown javadoc format for setDurability(short) [in ItemStack [in ItemStack.class [in org.bukkit.inventory [in C:\Users\thege\OneDrive\Documents\GitHub\thegearzz.github.io\spigot-api-1.13.2-R0.1-SNAPSHOT-shaded.jar]]]]
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-01-30 23:18:08.407
+!MESSAGE Connecting Git team provider failed. See log for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connecting Git team provider failed. See log for details.
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:114)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$8.run(GitImportWizard.java:291)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:298)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:238)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:208)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Error connecting project ProtocolSupport, no Git repositories found
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2019-01-30 23:18:08.408
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2019-01-30 23:18:08.409
+!MESSAGE Error connecting project ProtocolSupport, no Git repositories found
+
+!ENTRY org.eclipse.core.resources 4 2 2019-01-31 17:17:48.228
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Variable references empty selection: ${project_loc}
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.abort(ResourceResolver.java:115)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.getSelectedResource(ResourceResolver.java:136)
+	at org.eclipse.debug.internal.core.variables.ResourceResolver.resolveValue(ResourceResolver.java:51)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:59)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:272)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:195)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:90)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:595)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:361)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getLocation(ExternalToolsCoreUtil.java:76)
+	at org.eclipse.ant.internal.launching.launchConfigurations.AntLaunchDelegate.launch(AntLaunchDelegate.java:164)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:715)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.launchBuild(ExternalToolBuilder.java:186)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.doBuildBasedOnScope(ExternalToolBuilder.java:174)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:93)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-31 17:17:48.230
+!MESSAGE Variable references empty selection: ${project_loc}
+!SUBENTRY 1 org.eclipse.debug.core 4 120 2019-01-31 17:17:48.230
+!MESSAGE Variable references empty selection: ${project_loc}
