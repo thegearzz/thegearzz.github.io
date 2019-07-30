@@ -1,4 +1,4 @@
-//clock code from w3schools canvass tutorial
+//clock code from w3schools canvas tutorial
 var canvas = document.getElementById("mainCanvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
@@ -6,7 +6,6 @@ ctx.translate(radius, radius);
 radius = radius * 0.9;
 //drawClock();
 setInterval(drawClock, 1000);
-console.log(Math.PI);
 
 function drawClock() {
 	drawFace(ctx, radius);
@@ -24,16 +23,16 @@ function drawFace(ctx, radius) {
 	ctx.fill();
 
 	grad = ctx.createRadialGradient(0, 0 ,radius * 0.95, 0, 0, radius * 1.05);
-	grad.addColorStop(0, "#333");
+	grad.addColorStop(0, "#030303");
 	grad.addColorStop(0.5, "white");
-	grad.addColorStop(1, "#333");
+	grad.addColorStop(1, "#030303");
 	ctx.strokeStyle = grad;
 	ctx.lineWidth = radius*0.1;
 	ctx.stroke();
 
 	ctx.beginPath();
 	ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
-	ctx.fillStyle = "#333";
+	ctx.fillStyle = "#030303";
 	ctx.fill();
 
 }
