@@ -2,18 +2,25 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  	<meta charset="utf-8">
 
-  <title>WIP SITE</title>
-  <meta name="description" content="Java Site">
-  <meta name="author" content="Gear">
+	<title>WIP SITE</title>
+ 	<meta name="description" content="Java Site">
+	<meta name="author" content="Gear">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<link rel="stylesheet" href="css/style.css?v=1.0">
 
 </head>
 
 <body>
-  <header>WIP</header>
-  <script src="js/scripts.js"></script>
+	<header>WIP</header>
+	<canvas id="mainCanvas" width="300" height="300" style="border:0px solid #000000; background-color:powderblue">	
+	</canvas><br>
+	<textarea style="resize:none;" rows="1" id="plainText"></textarea>
+	<button onclick="encryptMessage()">Encrypt</button>
+	<p id="encryptedMessage"></p>
+	<script src="js/canvas.js"></script>
+	<script src="js/gcrypt.js"></script>
+
 </body>
 </html>
