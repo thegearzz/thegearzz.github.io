@@ -1,5 +1,5 @@
 
-setInterval(getTime, 100);
+setInterval(getTime, 10);
 //basic time function thingy
 function getTime() {
 	var monthYear = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
