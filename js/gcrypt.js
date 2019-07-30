@@ -22,8 +22,7 @@ function encryptMessage() {
 		if (count < 10) {
 			count = count.toString();
 			var cipherCount = random.toString() + count;
-		}
-		else {
+		} else {
 			count = count.toString();
 			var cipherCount = count.substring(0,1) + random.toString() + count.substring(1,2);
 		}

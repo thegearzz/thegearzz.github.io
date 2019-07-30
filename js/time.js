@@ -12,7 +12,7 @@ function getTime() {
 	var second = now.getSeconds();
 	var millisecond = now.getMilliseconds();
 	var month = monthYear[months];
-	var time = "Current Date and Time: "+month+"/"+day+"/"+year+" "+hour+":"+minute+":"+second+":"+millisecond
+	var time = "Current Date and Time: "+month+"/"+day+"/"+year+" "+hour+":"+minute+":"+second+":"+millisecond;
 	document.getElementById("currentTime").innerHTML = time;
 }
 
