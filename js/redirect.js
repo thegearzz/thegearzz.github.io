@@ -7,7 +7,7 @@ function redirectMe() {
 		
   if(passphrase == "TEST"){
 	passphrase = passphrase.toLowerCase();
-  	window.open("/" + passphrase + ".html");
+  	window.open("/html/" + passphrase + ".html");
   }
 	
 	else {
