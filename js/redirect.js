@@ -1,7 +1,17 @@
 var passphrase = "";
 
 function redirectMe() {
-  passphrase = document.getElementById("passphrase").value;
+	passphrase = document.getElementById("passphrase").value;
+  passphrase = passphrase.toUpperCase();
   console.log(passphrase);
+		
+  if(passphrase == "TEST"){
+		passphrase = passphrase.toLowerCase();
+  	window.location.href = "/" + passphrase + ".html";
+  }
+	
+	else {
+		document.getElementById("errorMessage").innerHtml = "Sorry, but that's not a valid code."
+	}
   
 }
