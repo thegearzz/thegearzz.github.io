@@ -6,8 +6,8 @@ function redirectMe() {
   console.log(passphrase);
 		
   if(passphrase == "TEST"){
-		passphrase = passphrase.toLowerCase();
-  	window.open.location.href = "/" + passphrase + ".html";
+	passphrase = passphrase.toLowerCase();
+  	window.open("/" + passphrase + ".html";
   }
 	
 	else {
