@@ -1,4 +1,5 @@
+var passphrase = "";
+
 function Redirect() {
-  document.getElementById("passphrase") = var passphrase;
-  passphrase = passphrase.tostring();
+  passphrase = document.getElementById("passphrase").value;
 }
