@@ -11,7 +11,7 @@ function redirectMe() {
   }
 	
 	else {
-		document.getElementById("errorMessage").innerHtml = "Sorry, but that's not a valid code.";
+		document.getElementById("errorMessage").innerHTML = "Sorry, but that's not a valid code.";
 	}
   
 }
