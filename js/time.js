@@ -12,7 +12,16 @@ function getTime() {
 	var second = now.getSeconds();
 	var millisecond = now.getMilliseconds();
 	var month = monthYear[months];
-	var time = "Current Date and Time: "+month+"/"+day+"/"+year+" "+hour+":"+minute+":"+second+":"+millisecond;
+	var time = ""
+	
+	if (hour > 12) {
+		hour = hour - 12;
+	}
+	if (hour < 10) {
+		hour = "0"+hour.toString();
+	}
+	
+	time = "Current Date and Time: "+month+"/"+day+"/"+year+" "+hour+":"+minute+":"+second+":"+millisecond;
 	document.getElementById("currentTime").innerHTML = time;
 }
 
