@@ -1,6 +1,8 @@
 body {
 	background-color: black;
 	color: green;
-	text-align: center;
-	
+	.currentTime {
+		border: 5px outset green;
+  		text-align: center;
+	}
 }
