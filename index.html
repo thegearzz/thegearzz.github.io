@@ -1,100 +1,43 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  	<meta charset="utf-8">
-
-	<title>Gear's Random Stuff</title>
- 	<meta name="description" content="My random site for dumb stuff">
-	<meta name="author" content="Gear">
-
-	<link rel="stylesheet" href="css/style.css?v=1.0">
-
+	<meta charset="utf-8">
+	<title>Fish Creek Animal Hospital</title>
 </head>
-
 <body>
-	<div class="currentTime">
-		<p id="currentTime">Current Time Not Available</p>
-	</div>
-	<textarea style="resize:none;" rows="1" id="passphrase"></textarea>
-	<button onclick="redirectMe()">Submit</button>
-	<p id="errorMessage"></p>
-	<table width="25%">
-		<tr>
-			<th><img id="led0-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led0-6" src="img/ledoff.png" alt="light"> </th>
+	<h1>Fish Creek Animal Hospital</h1>
+	<nav>
+		<a href="index.html"><b>Home</b></a>
+		&nbsp&nbsp
+		<a href="services.html"><b>Services</b></a>
+		&nbsp&nbsp
+		<a href="askthevet.html"><b>Ask The Vet</b></a>
+		&nbsp&nbsp
+		<a href="contact.html"><b>Contact</b></a>
+	</nav>
+	<main>
+		<dl>
+			<dt><strong>Full Service Facility</strong></dt>
+			<dd>Veterinarians and staff are on duty 24 hours a day, 7 days a week.</dd>
+			<dt><strong>Years of Experience</strong></dt>
+			<dd>Fish Creek Veterinarians have provided quality, dependable care for your beloved animals since 1984.</dd>
+			<dt><strong>Open Door Policy</strong></dt>
+			<dd>Our professionals welcome owners to stay with their pets during any medical procedure.</dd>
+		</dl>
+		<div>
+			800-555-5555
+			<br>
+			1242 Grassy Lane
+			<br>
+			Fish Creek, WI 55534
+		</div>
 
-		</tr>
-		<tr>
-			<th><img id="led1-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led1-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		<tr>
-			<th><img id="led2-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led2-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		<tr>
-			<th><img id="led3-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led3-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		<tr>
-			<th><img id="led4-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led4-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		<tr>
-			<th><img id="led5-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led5-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		<tr>
-			<th><img id="led6-0" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-1" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-2" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-3" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-4" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-5" src="img/ledoff.png" alt="light"> </th>
-			<th><img id="led6-6" src="img/ledoff.png" alt="light"> </th>
-
-		</tr>
-		
-	</table>
-	<script src="/js/time.js"></script>
-	<script src="/js/blinken.js"></script>
-	<script src="/js/redirect.js"></script>
-
+	</main>
+	<br>
+	<footer>
+		<small><i>Copyright © 2016 Fish Creek Animal Hospital</i></small>
+		<br>
+		<small><i><a href="mailto:koehle16@email.franklin.edu">koehle16@email.franklin.edu</a></i></small>
+	</footer>
 </body>
 </html>
