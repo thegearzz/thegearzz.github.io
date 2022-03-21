@@ -1,0 +1,75 @@
+body {
+    background-color: #ffcce9;
+    color: #006bb3;
+}
+
+nav {
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+hr.solid {
+    border-top: 3px solid #0099ff;
+}
+
+
+nav a:link {
+	color: #0099ff;
+}
+
+nav a:hover {}
+
+nav a:clicked {}
+
+nav a:visited {
+	color: #004d80;
+}
+.column.right{
+	float: right;
+	width:  50%;
+	text-align: right;
+}
+
+.column.left{
+	float: left;
+	width: 50%;
+	text-align: left;
+	font-size: 3em;
+}
+
+.header{
+	text-align: center;
+	font-size: 3em;
+	color: #0099ff;
+}
+
+#logo{
+	width: 600px;
+	}
+#under{
+	width: 400px;
+}
+
+#forumlink{
+	text-align: center;
+	display: inline;
+	font-size: 3em;
+}
+
+#frmlink{
+	text-align: center;
+}
+
+.one{
+	padding:  10px;
+	font-size: 3em;
+	text-align: center;
+
+}
+
+#FF69B4 #B7E9F7
