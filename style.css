@@ -29,6 +29,19 @@ nav a:clicked {}
 nav a:visited {
 	color: #004d80;
 }
+
+ul li a:link {
+	color: #0099ff;
+}
+
+ul li a:hover {}
+
+ul li a:clicked {}
+
+ul li a:visited {
+	color: #004d80;
+}
+
 .column.right{
 	float: right;
 	width:  50%;
@@ -51,8 +64,17 @@ nav a:visited {
 #logo{
 	width: 600px;
 	}
-#under{
-	width: 400px;
+
+#streamlogo{
+	width: 600px;
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
+#biopic{
+	width: 200px;
+	display: block;
+	text-align: left;
 }
 
 #forumlink{
@@ -70,6 +92,15 @@ nav a:visited {
 	font-size: 3em;
 	text-align: center;
 
+}
+
+#twitch-embed{
+	display: block;
+	text-align: center;
+}
+
+#under{
+	width: 500px;
 }
 
 #FF69B4 #B7E9F7
