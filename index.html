@@ -1,2 +1,70 @@
 <!DOCTYPE html>
-<meta http-equiv="Refresh" content="0; url='home.html_offline'" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrase Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Phrase Translator</h1>
+    <input type="text" id="inputText" placeholder="Enter a phrase">
+    <button onclick="translatePhrase()">Translate</button>
+    <div id="result"></div>
+
+    <script>
+        // Custom dictionary as an array of objects for single words
+        const dictionary = [
+            { english: "hello", spanish: "hola" },
+            { english: "world", spanish: "mundo" },
+            { english: "dog", spanish: "perro" },
+            { english: "cat", spanish: "gato" },
+            { english: "sun", spanish: "sol" }
+        ];
+
+        function translatePhrase() {
+            // Get input value, convert to lowercase, and trim whitespace
+            const input = document.getElementById("inputText").value.toLowerCase().trim();
+            const resultDiv = document.getElementById("result");
+
+            // Check if input is empty
+            if (!input) {
+                resultDiv.innerText = "Please enter a phrase.";
+                return;
+            }
+
+            // Split the input phrase into individual words
+            const words = input.split(" ");
+
+            // Translate each word
+            const translatedWords = words.map(word => {
+                // Search dictionary for the word
+                const found = dictionary.find(item => item.english === word);
+                // Return translation or original word if not found
+                return found ? found.spanish : word;
+            });
+
+            // Join translated words into a single phrase
+            const translatedPhrase = translatedWords.join(" ");
+
+            // Display result
+            resultDiv.innerText = `Translation: ${translatedPhrase}`;
+        }
+    </script>
+</body>
+</html>
